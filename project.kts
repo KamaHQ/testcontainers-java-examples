@@ -7,7 +7,7 @@ flow {
     node {
         echo("All execution will be performed on ${node.id}")
 
-        exec("git clone https://github.com/KamaHQ/testcontainers-java-examples.git .")
+        checkout(repository)
 
         echo("All cloned.")
 
