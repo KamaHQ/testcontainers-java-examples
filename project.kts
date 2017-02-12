@@ -30,7 +30,6 @@ flow {
                 file("build.gradle", append = true, text = """
                     test.testLogging {
                         displayGranularity 1
-                        showStandardStreams = false
                         events "STARTED", "PASSED", "FAILED", "SKIPPED"
                     }
                 """)
