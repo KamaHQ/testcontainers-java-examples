@@ -3,7 +3,7 @@ import com.github.kama.tasks.*
 
 flow {
     echo("Starting execution $executionId")
-    echo("trigger: $trigger")
+    echo("Cause: $cause")
 
     node {
         echo("All execution will be performed on ${node.id}")
