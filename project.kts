@@ -14,7 +14,7 @@ flow {
 
         parallel((0..5).map { i ->
             flow {
-                echo("Processing #$i on ${node.id}...")
+                echo("Processing #$i...")
                 sleep(3.second)
                 echo("Done #$i")
             }
