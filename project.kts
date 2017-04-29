@@ -1,3 +1,5 @@
+@file:require("com.github.kama:exec:[1.0,2.0)")
+
 import com.github.kama.*
 import com.github.kama.tasks.*
 
