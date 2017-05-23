@@ -9,7 +9,7 @@ flow {
 
         checkout(repository)
 
-        echo("All cloned!")
+        echo("All cloned")
 
         parallel((0..5).map { i ->
             flow {
