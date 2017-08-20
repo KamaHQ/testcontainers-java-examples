@@ -30,4 +30,6 @@ flow {
             }
         }
     }
+    
+    echo("Done!")
 }
