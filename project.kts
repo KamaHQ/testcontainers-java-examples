@@ -11,14 +11,6 @@ flow {
 
         echo("All cloned!")
 
-        parallel((0..5).map { i ->
-            flow {
-                echo("Processing #$i...")
-                sleep(3.second)
-                echo("Done #$i")
-            }
-        })
-
         val answer = input("Continue?")
         echo("Answer was: $answer")
 
