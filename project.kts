@@ -31,5 +31,5 @@ flow {
         }
     }
     
-    echo("Done!")
+    echo("Done")
 }
