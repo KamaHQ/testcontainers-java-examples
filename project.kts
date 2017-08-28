@@ -15,7 +15,7 @@ flow {
         echo("Answer was: $answer")
 
         if (answer) {
-            exec("gradle --no-daemon init")
+            exec("gradle --no-daemon --console=rich init makeItFail")
 
             dir("spring-boot") {
                 file("build.gradle", append = true, text = """
